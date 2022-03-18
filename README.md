@@ -45,10 +45,8 @@ dependencies {
 ```
 **attachments**
 
- for attachments you need set READ_EXTERNAL_STORAGE permission in your manifiest 
- ```xml
- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-```
+for attachments you need get attachments from intent.
+ 
 Based on https://github.com/kristijandraca/BackgroundMailLibrary (code cleanup, tweaks, and jitpack support, removed Toast that was showing by default)
 
 **Proguard**
