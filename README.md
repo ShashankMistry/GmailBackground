@@ -33,8 +33,8 @@ a small library to send a email in background withou user interaction
  }
 ```
 ```groovy
- dependencies {
-	        compile 'com.github.yesidlazaro:GmailBackground:1.2.0'
+dependencies {
+	        implementation 'com.github.ShashankMistry:GmailBackground:1.0.0'
 	}
 ```
 
@@ -49,7 +49,7 @@ a small library to send a email in background withou user interaction
  ```xml
  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 ```
-Based on https://github.com/kristijandraca/BackgroundMailLibrary (code cleanup, tweaks, and jitpack support)
+Based on https://github.com/kristijandraca/BackgroundMailLibrary (code cleanup, tweaks, and jitpack support, removed Toast that was showing by default)
 
 **Proguard**
 ```
